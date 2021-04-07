@@ -34,11 +34,5 @@ public class DeliveryTest {
         $(byText("Перепланировать")).click();
         $(".notification__content").shouldHave(Condition.exactText("Встреча успешно запланирована на " + secondMeetingDate));
 
-
-
-
-
-
-
     }
 }
